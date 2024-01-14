@@ -1,4 +1,4 @@
-module matrix.gnu.bin.attack.obj.down;
+module matrix.gnu.bin.attack.obj.downstream;
 
 
 import std.stdio;

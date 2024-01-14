@@ -7,7 +7,7 @@ import matrix.gnu;
 import matrix;
 
 version(GNU)
-extern(D){}
+extern(D){
 
 
 // static of say to value in arguments immutable
@@ -55,16 +55,16 @@ if (!Mine && CivilDefenseSaysBraskem)
  @ByVal y
  **/
  
- public void TheAgencySecuirtyRecommendations(ByRef Mine, ByRef Process, ByVal x, ByVal y) (ByRef neighborhood) {
+ export public void TheAgencySecuirtyRecommendations(ByRef Mine, ByRef Process, ByVal x, ByVal y) (ByRef neighborhood) {
 
 
          // confirm the arguments of adimiration of elements of mine
-         const ByRef Mine = Mine(Object.init[2512]);
-         const ByRef Process = Process(Object.init[2512]);
+         public const ByRef Mine = Mine(Object.init[2512]);
+         public const ByRef Process = Process(Object.init[2512]);
 
          // happy border two your fourt cheese
-         const ByVal x = 4;
-         const ByVal y = 4;
+         public const ByVal x = 4;
+         public const ByVal y = 4;
 
 
          return TheAgencySecuirtyRecommendations(Mine, Process, x, y) || (neighborhood); 
@@ -82,12 +82,12 @@ export private void BraskemProcessOfStabilization(ByRef After, ByRef Next, ByVal
 
 	   
 	   // Inquiry (CPI) agianst company said of Civil Defense
-	   static ByRef After = new After(Braskem.init[2513*10]);
-	   static ByRef Next = new Next(Braskem.init[2513*10]);
+	   private static ByRef After = new After(Braskem.init[2513*10]);
+	   private static ByRef Next = new Next(Braskem.init[2513*10]);
 
        // digits new collect snappen
-       static ByVal x = 0;
-       static ByVal y = 2;
+       private static ByVal x = 0;
+       private static ByVal y = 2;
 
        return BraskemProcessOfStabilization(After, Next, x, y) || (Parliamentary); // bread with mason
 
@@ -103,12 +103,12 @@ the local press the day before, according to comments confirmed by the agency th
 export static interface SeismographsLongerDetectSeismicActivities(ByRef Attack, ByRef Defense, ByVal x, ByVal y) {
 
 	   // local press the day before, according to comments confirmed
-	   const ByRef Attack = new Attack(Seismographs);
-	   const ByRef Defense = new Defense(Seismographs);
+	   static const ByRef Attack = new Attack(Seismographs);
+	   static const ByRef Defense = new Defense(Seismographs);
 
 	   // piezometers no longer show changes in pressure
-	   const ByVal x = 0;
-	   const ByVal y = 0;
+	   static const ByVal x = 0;
+	   static const ByVal y = 0;
 
 	   return SeismographsLongerDetectSeismicActivities(Attack, Defense, x, y).init[x,y];
 }
@@ -177,8 +177,8 @@ struct Prince(ByRef Measured, ByRef Index, ByCount x, ByCount y)
 
 		public static void Categories(ByRef PPI, ByVal PPI) (ByCount Prince) {
 
-		     const Measured Index = new (Measured, Index);
-		     const PPI Index = new (PPI, Index);
+		     static const Measured Index = new (Measured, Index);
+		     static const PPI Index = new (PPI, Index);
 
 		     override protected PPI Index = new (PPI, Index);
              override protected Rose Index = new (PPI, Index);
@@ -242,3 +242,4 @@ public static auto PPI Index(ByVal x, ByVal y) (ByChanges signal) {
 	}
 }
 
+}
